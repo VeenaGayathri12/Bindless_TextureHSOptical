@@ -1,0 +1,686 @@
+---
+MainSourceFile:  '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/MainSrcFiles_placehold'
+Replacements:
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          1563
+    Length:          0
+    ReplacementText: "#include <sycl/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          1603
+    Length:          30
+    ReplacementText: '#include "downscaleKernel.dp.hpp"'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          1634
+    Length:          28
+    ReplacementText: '#include "upscaleKernel.dp.hpp"'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          1663
+    Length:          28
+    ReplacementText: '#include "warpingKernel.dp.hpp"'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          1692
+    Length:          32
+    ReplacementText: '#include "derivativesKernel.dp.hpp"'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          1725
+    Length:          27
+    ReplacementText: '#include "solverKernel.dp.hpp"'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          1753
+    Length:          24
+    ReplacementText: '#include "addKernel.dp.hpp"'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          4200
+    Length:          10
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::get_in_order_queue().memcpy'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          4250
+    Length:          53
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          4304
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          4325
+    Length:          10
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::get_in_order_queue().memcpy'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          4375
+    Length:          53
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          4429
+    Length:          0
+    ReplacementText: '.wait())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          5256
+    Length:          10
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::get_in_order_queue().memset'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          5307
+    Length:          0
+    ReplacementText: '.wait())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          5328
+    Length:          10
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::get_in_order_queue().memset'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          5379
+    Length:          0
+    ReplacementText: '.wait())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          5538
+    Length:          10
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::get_in_order_queue().memset'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          5568
+    Length:          0
+    ReplacementText: '.wait())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          5593
+    Length:          10
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::get_in_order_queue().memset'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          5623
+    Length:          0
+    ReplacementText: '.wait())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          5649
+    Length:          10
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::get_in_order_queue().memset'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          5679
+    Length:          0
+    ReplacementText: '.wait())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          5704
+    Length:          10
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::get_in_order_queue().memset'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          5734
+    Length:          0
+    ReplacementText: '.wait())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7203
+    Length:          10
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::get_in_order_queue().memcpy'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7230
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7255
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7276
+    Length:          10
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::get_in_order_queue().memcpy'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7303
+    Length:          24
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7328
+    Length:          0
+    ReplacementText: '.wait())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7403
+    Length:          24
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::dpct_free((void *)pI0[i], dpct::get_in_order_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7427
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7450
+    Length:          24
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::dpct_free((void *)pI1[i], dpct::get_in_order_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7474
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7578
+    Length:          15
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::dpct_free(d_tmp, dpct::get_in_order_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7593
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7614
+    Length:          15
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::dpct_free(d_du0, dpct::get_in_order_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7629
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7650
+    Length:          15
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::dpct_free(d_dv0, dpct::get_in_order_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7665
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7686
+    Length:          15
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::dpct_free(d_du1, dpct::get_in_order_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7701
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7722
+    Length:          15
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::dpct_free(d_dv1, dpct::get_in_order_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7737
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7758
+    Length:          14
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::dpct_free(d_Ix, dpct::get_in_order_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7772
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7793
+    Length:          14
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::dpct_free(d_Iy, dpct::get_in_order_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7807
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7828
+    Length:          14
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::dpct_free(d_Iz, dpct::get_in_order_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7842
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7863
+    Length:          14
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::dpct_free(d_nu, dpct::get_in_order_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7877
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7898
+    Length:          14
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::dpct_free(d_nv, dpct::get_in_order_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7912
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7933
+    Length:          13
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::dpct_free(d_u, dpct::get_in_order_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7946
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7967
+    Length:          13
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::dpct_free(d_v, dpct::get_in_order_queue())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Offset:          7980
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowGold.cpp'
+    Offset:          1563
+    Length:          0
+    ReplacementText: "#include <sycl/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowGold.cpp'
+    Offset:          1604
+    Length:          0
+    ReplacementText: "\n#include <cmath>\n\n#include <cstdlib>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowGold.cpp'
+    Offset:          2635
+    Length:          12
+    ReplacementText: 'std::abs(ix0 + 1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowGold.cpp'
+    Offset:          2671
+    Length:          12
+    ReplacementText: 'std::abs(iy0 + 1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowGold.cpp'
+    Offset:          3778
+    Length:          10
+    ReplacementText: 'std::abs(x + 1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowGold.cpp'
+    Offset:          3808
+    Length:          10
+    ReplacementText: 'std::abs(y + 1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/main.cpp'
+    Offset:          1698
+    Length:          26
+    ReplacementText: "#include <sycl/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/main.cpp'
+    Offset:          1819
+    Length:          0
+    ReplacementText: "\n#include <cmath>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest:
+  - MainSourceFile:  '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu'
+    Digest:          9c95e8e6fb0b7f2b65ed7e895b15c791
+    HasCUDASyntax:   true
+  - MainSourceFile:  '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/flowGold.cpp'
+    Digest:          8924dc99abd88dc2a7855a1eb6077e6a
+    HasCUDASyntax:   true
+  - MainSourceFile:  '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow/main.cpp'
+    Digest:          4c5cfdaf6d3d79cd1458bcf5d88ec689
+    HasCUDASyntax:   true
+DpctVersion:     19.0.0
+MainHelperFileName: ''
+USMLevel:        ''
+FeatureMap:      {}
+CompileTargets:  {}
+OptionMap:
+  AnalysisScopePath:
+    Value:           '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples'
+    Specified:       false
+  AsyncHandler:
+    Value:           'false'
+    Specified:       false
+  BuildScript:
+    Value:           '0'
+    Specified:       false
+  CodePinEnabled:
+    Value:           'false'
+    Specified:       false
+  CommentsEnabled:
+    Value:           'false'
+    Specified:       false
+  CompilationsDir:
+    Value:           '/nfs/site/home/vjawahax/HSOptical_2025/cuda-samples/Samples/5_Domain_Specific/HSOpticalFlow'
+    Specified:       true
+  CtadEnabled:
+    Value:           'false'
+    Specified:       false
+  EnablepProfiling:
+    Value:           'false'
+    Specified:       false
+  ExperimentalFlag:
+    Value:           '2048'
+    Specified:       true
+  ExplicitNamespace:
+    Value:           '20'
+    Specified:       false
+  ExtensionDDFlag:
+    Value:           '0'
+    Specified:       false
+  ExtensionDEFlag:
+    Value:           '4294967295'
+    Specified:       false
+  HelperFuncPreferenceFlag:
+    Value:           '0'
+    Specified:       false
+  NDRangeDim:
+    Value:           '3'
+    Specified:       false
+  NoDRYPattern:
+    Value:           'false'
+    Specified:       false
+  OptimizeMigration:
+    Value:           'false'
+    Specified:       false
+  ProcessAll:
+    Value:           'false'
+    Specified:       false
+  RuleFile:
+    Value:           ''
+    Specified:       false
+  SyclNamedLambda:
+    Value:           'false'
+    Specified:       false
+  UseSYCLCompat:
+    Value:           'false'
+    Specified:       false
+  UsmLevel:
+    Value:           '1'
+    Specified:       false
+...
